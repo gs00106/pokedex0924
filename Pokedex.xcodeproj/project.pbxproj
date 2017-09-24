@@ -13,6 +13,8 @@
 		3F0367A51F7782CA00B2D633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0367A31F7782CA00B2D633 /* Main.storyboard */; };
 		3F0367A71F7782CA00B2D633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0367A61F7782CA00B2D633 /* Assets.xcassets */; };
 		3F0367AA1F7782CA00B2D633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0367A81F7782CA00B2D633 /* LaunchScreen.storyboard */; };
+		3F0367B31F77945A00B2D633 /* pokecell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0367B21F77945A00B2D633 /* pokecell.m */; };
+		3F0367B61F7794AF00B2D633 /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0367B51F7794AF00B2D633 /* Pokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3F0367A61F7782CA00B2D633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0367A91F7782CA00B2D633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0367AB1F7782CA00B2D633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0367B11F77945A00B2D633 /* pokecell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokecell.h; sourceTree = "<group>"; };
+		3F0367B21F77945A00B2D633 /* pokecell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pokecell.m; sourceTree = "<group>"; };
+		3F0367B41F7794AF00B2D633 /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		3F0367B51F7794AF00B2D633 /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				3F0367A01F7782CA00B2D633 /* ViewController.h */,
 				3F0367A11F7782CA00B2D633 /* ViewController.m */,
 				3F0367A31F7782CA00B2D633 /* Main.storyboard */,
+				3F0367B11F77945A00B2D633 /* pokecell.h */,
+				3F0367B21F77945A00B2D633 /* pokecell.m */,
+				3F0367B41F7794AF00B2D633 /* Pokemon.h */,
+				3F0367B51F7794AF00B2D633 /* Pokemon.m */,
 				3F0367A61F7782CA00B2D633 /* Assets.xcassets */,
 				3F0367A81F7782CA00B2D633 /* LaunchScreen.storyboard */,
 				3F0367AB1F7782CA00B2D633 /* Info.plist */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0367B31F77945A00B2D633 /* pokecell.m in Sources */,
 				3F0367A21F7782CA00B2D633 /* ViewController.m in Sources */,
 				3F03679F1F7782CA00B2D633 /* AppDelegate.m in Sources */,
+				3F0367B61F7794AF00B2D633 /* Pokemon.m in Sources */,
 				3F03679C1F7782CA00B2D633 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
